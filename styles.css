@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    background-color: black;
+    width: 100vw;
+    min-height: 580vh;
+}
+
+.container {
+    background-image: url(header-image.png);
+    width: 100vw;
+    height: 600px;
+}
+
+.navbar {
+    text-align: strat;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
+.navbar #logoimg {
+    margin: auto 0px;
+    height: 8vh;
+    width: 17vw;
+    margin-right: 37vw;
+    margin-left: 10vw;
+    font-style: normal;
+}
+
+.navbar #languages {
+    margin: auto 0px;
+    padding: 20px;
+    max-height: 15px;
+    background-color: transparent;
+    width: 13vw;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+}
+
+.navbar #Signinbutton {
+    background-color: red;
+    margin: auto 0px;
+    padding: 4px;
+    height: 40px;
+    margin-left: 10vw;
+    width: 8vw;
+    font-size: 15px;
+    margin-left: 3vw;
+    border-radius: 8px;
+    border: NONE;
+}
+
+.heading {
+    height: 400px;
+}
+
+.head {
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+}
+
+.head h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.head h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.emailinput {
+    text-align: center;
+    height: 160px;
+}
+
+.emailinput input {
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.emailinput button {
+    font-style: bold;
+    height: 50px;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.table {
+    text-align: center;
+    height: 2050px;
+    width: 100vw;
+    color: white;
+}
+
+.blank {
+    width: 100vw;
+    height: 6px;
+    color: yellow;
+    background-color: aqua;
+}
+
+.row {
+    height: 450px;
+    border: 5px splid rgb(168, 27, 27);
+}
+
+.rowcontent {
+    height: 200px;
+    width: 640px;
+    margin: 75px auto;
+    padding: 100px;
+}
+
+.h1heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.h3heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.table img {
+    height: 300px;
+    width: 500px;
+    margin: 40px auto;
+}
+
+.faq {
+    color: white;
+    width: 100vw;
+    min-height: 900px;
+}
+
+.faq h1 {
+    text-align: center;
+    height: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.topfaq {
+    font-size: 25px;
+    width: 70vw;
+    min-height: 580px;
+    margin: 100px auto 30px;
+}
+
+.topfaq details {
+    min-height: 60px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.topfaq summary {
+    background-color: rgb(45, 45, 45);
+    margin-bottom: 10px;
+}
+
+.addpera {
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.footer1 {
+    height: 400px;
+    width: 100vw;
+    color: white;
+}
+
+.footer1 p {
+    margin: 0px 18vw;
+}
+
+.footertable {
+    margin: 10px 16vw;
+    height: 200px;
+    padding: 30px;
+}
+
+.footer1 select {
+    margin: 10px 18vw;
+}
+
+.footertablerow tr {
+    margin: 0px;
+}
+
+.footertablerow td {
+    margin: 0px 30px;
+    width: 20vw;
+    color: white;
+}
+
+.footertablerow td a {
+    color: white;
+}
